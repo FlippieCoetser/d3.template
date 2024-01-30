@@ -120,3 +120,48 @@ See the `karma.conf.js` which load the specified node_modules into unit test run
       { pattern: "./node_modules/robust-predicates/**/*.js", type: "module" }
     ]
 ```
+
+See the `wallaby.js` which load the specified node_modules into wallaby realtime test runner context:
+
+```
+{
+  files: [
+    "importmap.js",
+    "node_modules/d3/src/**/*.js",
+    "node_modules/d3-array/src/**/*.js",
+    "node_modules/d3-axis/src/**/*.js",
+    "node_modules/d3-chord/src/**/*.js",
+    "node_modules/d3-brush/src/**/*.js",
+    "node_modules/d3-color/src/**/*.js",
+    "node_modules/d3-contour/src/**/*.js",
+    "node_modules/d3-delaunay/src/**/*.js",
+    "node_modules/d3-dispatch/src/**/*.js",
+    "node_modules/d3-drag/src/**/*.js",
+    "node_modules/d3-dsv/src/**/*.js",
+    "node_modules/d3-ease/src/**/*.js",
+    "node_modules/d3-fetch/src/**/*.js",
+    "node_modules/d3-force/src/**/*.js",
+    "node_modules/d3-format/src/**/*.js",
+    "node_modules/d3-geo/src/**/*.js",
+    "node_modules/d3-hierarchy/src/**/*.js",
+    "node_modules/d3-interpolate/src/**/*.js",
+    "node_modules/d3-path/src/**/*.js",
+    "node_modules/d3-polygon/src/**/*.js",
+    "node_modules/d3-quadtree/src/**/*.js",
+    "node_modules/d3-random/src/**/*.js",
+    "node_modules/d3-scale/src/**/*.js",
+    "node_modules/d3-scale-chromatic/src/**/*.js",
+    "node_modules/d3-selection/src/**/*.js",
+    "node_modules/d3-shape/src/**/*.js",
+    "node_modules/d3-time/src/**/*.js",
+    "node_modules/d3-time-format/src/**/*.js",
+    "node_modules/d3-timer/src/**/*.js",
+    "node_modules/d3-transition/src/**/*.js",
+    "node_modules/d3-zoom/src/**/*.js",
+    "node_modules/internmap/**/*.js",
+    "node_modules/delaunator/**/*.js",
+    "node_modules/robust-predicates/**/*.js",
+    "src/**/*.ts",
+  ]
+}
+```
