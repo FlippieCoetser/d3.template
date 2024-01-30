@@ -14,6 +14,6 @@ const addCircle = (svg, radius) =>
 export const run = ({ width, height }) => {
   const svg = createSvg({ width, height });
 
-  addText(svg, "Hello d3js");
+  addText(svg, "Original Text");
   addCircle(svg, 30);
 };
